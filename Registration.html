@@ -1,31 +1,37 @@
 <html>
+<style>
+    #registration-heading {
+        font-size: 30px;
+        font-weight: bold;
+        color: #069;
+         background-color: antiquewhite;
+    }
+</style>
 
 <body>
-    <h1>Register</h1>
+    <h1 id="Registration-heading">Registration Form</h1>
     <div>
         <label>Name</label>
-        <input placeholder="Enter your name">
-</body>
-</div>
-<div>
-    <label>interest</label>
-    <input placeholder="Enter your interest">
-    <select multiple>
-        <option value="Frontend">Frontend</option>
-        <option value="Backnend">Backnend</option>
-    </select>
-</div>
-<div>
-    <label>darkmode</label>
-    <input type="checkbox">
-</div>
-<div>
-    <label>date of birth
-        <input type="date">
-</div>
-<div>
-    <button type="Submit">Submit
+        <input type="text" placeholder="Enter your name" />
+    </div>
+    <div>
+        <label>Select your Intrests</label>
+        <select> multiple choices
+            <option value="frontend">frontend</option>
+            </option value="backend">backend</option>
+        </select>
+        <div>
+            </label>Dark Mode</label>
+            <input type="checkbox" />
+        </div>
+        <div>
+            <label>Date of birth</label>
+            <input placeholder="date">
+        </div>
 
-    </button>
-</div>
-</body </html>
+        <div>
+            <button type="submit">submit</button>
+        </div>
+</body>
+
+</html>
