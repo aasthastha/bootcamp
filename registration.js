@@ -28,6 +28,7 @@ registration.onsubmit = function (event) {
         darkmode:darkmode,
     };
     console.log(data);
+    localStorage.setItem("userInfo",JSON.stringfy(data));
 
     
 };
